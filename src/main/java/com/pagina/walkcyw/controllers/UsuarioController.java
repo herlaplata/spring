@@ -13,9 +13,9 @@ public class UsuarioController {
     @RequestMapping(value = "usuario")
     public Usuario getUsuario () {
         Usuario usuario = new Usuario();
-        usuario.setApellido("Mamani");
-        usuario.setEmail("her.laplata@gamail.com");
-        usuario.setNombre("Hernan");
+        usuario.setApellido("Mam");
+        usuario.setEmail("ejemplo@gmail.com");
+        usuario.setNombre("Her");
         usuario.setPassword("contrasenia");
         usuario.setTelefono("123456789");
         return usuario;
